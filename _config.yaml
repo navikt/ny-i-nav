@@ -1,0 +1,9 @@
+title: Ny i NAV
+description: Oppsett for å komme i gang med utvikling og analyser i NAV
+show_downloads: false
+github:
+  is_project_page: false
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
