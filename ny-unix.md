@@ -7,7 +7,7 @@ Noen av stegene er ikke nødvendige for alle og vi vil prøve å merke de som er
 ## Sett opp NAV-kontoen din
 
 Når du starter i NAV får du utdelt en NAV-ident og en e-post (fornavn.etternavn@nav.no) basert på ditt navn.
-Første du da må gjøre er å tilbakestille passordet som er angitt for den kontoen.
+Det første du da må gjøre med den kontoen er å tilbakestille passordet som er angitt.
 Et annet navn for NAV-konto er AD-konto, som er forkortelse for Active Directory.
 
 1. Gå til Microsoft Password Reset: [Password reset](https://aka.ms/sspr)
@@ -27,7 +27,7 @@ Den riktige er [nav-it.slack.com](https://nav-it.slack.com).
 
 ## En nais device
 
-Det første du må gjøre er å gjøre enheten nais, og for det har vi [Naisdevice](../operate/naisdevice).
+For å kunne få tilgang til ting i NAV må du gjøre enheten nais, og for det har vi [Naisdevice](../operate/naisdevice).
 
 1. Start med å følge veiledningen for å sette opp Kolide: [Installer Kolide](../operate/naisdevice/how-to/install-kolide)
 2. Etter det må du installere verktøyet Naisdevice: [Install Naisdevice](../operate/naisdevice/how-to/install-kolide)
