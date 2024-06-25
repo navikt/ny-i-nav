@@ -1,6 +1,6 @@
 # Oppsett for ny Mac eller Linux
 
-Når man nettopp har startet som utvikler, dataanalytiker, eller dataengineer  i NAV er det mye programvare og tilgang som må settes opp!
+Når man nettopp har startet som utvikler, dataanalytiker, eller dataengineer i utvikling og data er det mye programvare og tilgang som må settes opp!
 Denne guiden vil prøve å ta deg gjennom de fleste viktige stegene for å gi deg de verktøyene du trenger i ditt daglig bruk.
 Noen av stegene er ikke nødvendige for alle og vi vil prøve å merke de som er spesifikt for en gruppe.
 

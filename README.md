@@ -1,5 +1,5 @@
-Velkommen som ny i NAV (eller du har fått ny maskin).
-Her vil vi ta deg igjennom forskjellige oppsett for å komme i gang med utvikling og analyser i NAV.
+Velkommen som ny i utvikling og data (eller du har fått ny maskin).
+Her vil vi ta deg igjennom forskjellige oppsett for å komme i gang med utvikling og analyser i NAV for deg i utvikling og data.
 
 Disse guidene er skrevet for de som er ansatt som utviklere, data analytikere, eller data engineer.
 
