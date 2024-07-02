@@ -11,7 +11,6 @@ Det første du da må gjøre med den kontoen er å tilbakestille passordet som e
 Et annet navn for NAV-konto er AD-konto, som er forkortelse for Active Directory.
 
 1. Gå til Microsoft Password Reset: [Password reset](https://aka.ms/sspr)
- - Standardpassordet er din NAV-ident med en "x" mellom bokstaven og tallene (W123456 = Wx123456)
 2. Følg trinnene på nettsiden
 
 ## Tilgang til Slack
