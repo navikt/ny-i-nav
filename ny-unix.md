@@ -54,14 +54,16 @@ Nedenfor har vi dokumentert hvordan man bruker `gh-cli`.
 3. Konfigurer `git` til å bruke `gh-cli` for autentisering.
     - `gh auth setup-git`
 
-## Tilgang til NAIS-plattformen (aka Kubernetes)
+## Tilgang til NAIS-plattformen
 
-Teamets applikasjoner kjører på NAIS, aka Kubernetes.
+De aller fleste team i NAV bruker NAIS-plattformen.
 Start med å gi deg selv tilgang til Google Cloud Platform (GCP).
 
 1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Google Cloud Platform`-appen.
+2. (Valgfritt) få en kollega til å legge deg til i teamet du tilhører i [NAIS Console](https://console.nav.cloud.nais.io/).
 
-Man trenger også en bunke med verktøy for å koble seg til NAIS.
+NAIS tilbyr Kubernetes for å kjøre applikasjoner/containere.
+For å koble seg til Kubernetes hos NAIS trenger man en bunke med verktøy.
 
 1. Installer Kubectl: [kubernetes.io/docs](https://kubernetes.io/docs/tasks/tools/#kubectl)
     - Brukes for å interagere med Kubernetes, trenger en `kubeconfig` for å fungere.
