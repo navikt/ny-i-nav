@@ -3,5 +3,5 @@ Her vil vi ta deg igjennom forskjellige oppsett for å komme i gang med utviklin
 
 Disse guidene er skrevet for de som er ansatt som utviklere, data analytikere, eller data engineer.
 
-- [Kom i gang med ny Mac/Linux](ny-unix)
+- [Kom i gang med ny Mac/Linux](ny-unix.md)
 - Kom i gang med ny Window *To be documented*
