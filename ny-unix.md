@@ -4,11 +4,11 @@ Når man nettopp har startet som utvikler, dataanalytiker, eller dataengineer i 
 Denne guiden vil prøve å ta deg gjennom de fleste viktige stegene for å gi deg de verktøyene du trenger i ditt daglig bruk.
 Noen av stegene er ikke nødvendige for alle og vi vil prøve å merke de som er spesifikt for en gruppe.
 
-## Sett opp NAV-kontoen din
+## Sett opp Nav-kontoen din
 
-Når du starter i NAV får du utdelt en NAV-ident og en e-post (fornavn.etternavn@nav.no) basert på ditt navn.
+Når du starter i Nav får du utdelt en Nav-ident og en e-post (fornavn.etternavn@nav.no) basert på ditt navn.
 Det første du da må gjøre med den kontoen er å tilbakestille passordet som er angitt.
-Et annet navn for NAV-konto er AD-konto, som er forkortelse for Active Directory.
+Et annet navn for Nav-konto er AD-konto, som er forkortelse for Active Directory.
 
 1. Gå til Microsoft Password Reset: [Password reset](https://aka.ms/sspr)
 2. Følg trinnene på nettsiden
@@ -17,7 +17,7 @@ Et annet navn for NAV-konto er AD-konto, som er forkortelse for Active Directory
 
 Før du kan få en kompatibel enhet, trenger du tilgang til Slack.
 
-1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Slack - NAV IT`-appen.
+1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Slack - Nav IT`-appen.
 2. Gå til [nav-it.slack.com](https://nav-it.slack.com).
 3. Velg "Logg på med Azure" for pålogging.
 
@@ -26,7 +26,7 @@ Den riktige er [nav-it.slack.com](https://nav-it.slack.com).
 
 ## En nais device
 
-For å kunne få tilgang til ting i NAV må du gjøre enheten nais, og for det har vi [Naisdevice](https://docs.nais.io/operate/naisdevice/).
+For å kunne få tilgang til ting i Nav må du gjøre enheten nais, og for det har vi [Naisdevice](https://docs.nais.io/operate/naisdevice/).
 
 1. Start med å følge veiledningen for å sette opp Kolide: [Installer Kolide](https://docs.nais.io/operate/naisdevice/how-to/install-kolide/)
 2. Etter det må du installere verktøyet Naisdevice: [Install Naisdevice](https://docs.nais.io/operate/naisdevice/how-to/install/)
@@ -34,12 +34,12 @@ For å kunne få tilgang til ting i NAV må du gjøre enheten nais, og for det h
 ## Tilgang til Github
 
 Før du kan begynne å hjelpe teamet ditt med koding, må du få tilgang til [navikt](https://github.com/navikt)-organisasjonen på Github.
-Du kan enten bruke din private Github-konto, eller opprette en ny NAV-spesifikk konto.
+Du kan enten bruke din private Github-konto, eller opprette en ny Nav-spesifikk konto.
 
 1. Aktiver tofaktorautentisering for kontoen din: [Settings/Password and authentication](https://github.com/settings/security)
     - Settings > Password and authentication
  - Det er ingen begrensninger for hvilken autentiseringsapp du bruker.
-2. Legg til din NAV-spesifikke e-postadresse til kontoen din: [Settings/Emails](https://github.com/settings/emails)
+2. Legg til din Nav-spesifikke e-postadresse til kontoen din: [Settings/Emails](https://github.com/settings/emails)
     - Settings > Emails > Add email address
 3. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `github.com/navikt`-appen.
 
@@ -55,7 +55,7 @@ Nedenfor har vi dokumentert hvordan man bruker `gh-cli`.
 
 ## Tilgang til NAIS-plattformen
 
-De aller fleste team i NAV bruker NAIS-plattformen.
+De aller fleste team i Nav bruker NAIS-plattformen.
 Start med å gi deg selv tilgang til Google Cloud Platform (GCP).
 
 1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Google Cloud Platform`-appen.
