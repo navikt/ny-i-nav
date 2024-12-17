@@ -16,13 +16,24 @@ Et annet navn for Nav-konto er AD-konto, som er forkortelse for Active Directory
 ## Tilgang til Slack
 
 Før du kan få en kompatibel enhet, trenger du tilgang til Slack.
+Dette skal du få ut av boksen så start med å last ned [Slack for Mac](https://slack.com/downloads/mac).
+
+PS: Vi har også en one-liner for å gjøre det:
+
+``` shell
+curl -s -L -o "$(eval echo ~${USER})/Desktop/$(curl -s -L -I -o /dev/null -w '%{url_effective}' https://slack.com/ssb/download-osx | sed 's@.*/@@')" "$(curl -s -L -I -o /dev/null -w '%{url_effective}' https://slack.com/ssb/download-osx)"
+```
+
+Vær oppmerksom på at det finnes flere lignende Slack-arbeidsområder som ikke er den offisielle!
+Den riktige er [nav-it.slack.com](https://nav-it.slack.com).
+
+### Fortsatt ikke tilgang?
+
+Hvis du ikke fikk tilgang ut av boksen kan du følge stegene nedenfor:
 
 1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Slack - Nav IT`-appen.
 2. Gå til [nav-it.slack.com](https://nav-it.slack.com).
 3. Velg "Logg på med Azure" for pålogging.
-
-Vær oppmerksom på at det finnes flere lignende Slack-arbeidsområder som ikke er den offisielle!
-Den riktige er [nav-it.slack.com](https://nav-it.slack.com).
 
 ## En nais device
 
