@@ -27,6 +27,9 @@ curl -s -L -o "$(eval echo ~${USER})/Desktop/$(curl -s -L -I -o /dev/null -w '%{
 Vær oppmerksom på at det finnes flere lignende Slack-arbeidsområder som ikke er den offisielle!
 Den riktige er [nav-it.slack.com](https://nav-it.slack.com).
 
+Og husk å logg inn med *passord*, som står med liten skrift under _Sign in with email_.
+Se etter lenken _sign in manually instead_!
+
 ### Fortsatt ikke tilgang?
 
 Hvis du ikke fikk tilgang ut av boksen kan du følge stegene nedenfor:
