@@ -101,6 +101,11 @@ Etter at du har installert alle disse fire programmene kan du endelig få tatt d
 4. Test at du får kontakt med Kubernetes med ny `kubeconfig`.
     - `kubectl get pods`
     - Output bør være `No resources found in default namespace.`, hvis ikke har du sannsynligvis glemt å logge inn, eller du har feil `kubeconfig`.
+
+## Legg til skriver
+
+Vi har et script du kan kjøre for å legge til Nav sine skrivere.
+Scriptet finner du i filen [add_nav_printers.sh](./add_nav_printers.sh).
     
 ## Bonuspoeng
 
