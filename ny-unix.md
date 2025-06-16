@@ -55,7 +55,9 @@ Du kan enten bruke din private Github-konto, eller opprette en ny Nav-spesifikk 
  - Det er ingen begrensninger for hvilken autentiseringsapp du bruker.
 2. Legg til din Nav-spesifikke e-postadresse til kontoen din: [Settings/Emails](https://github.com/settings/emails)
     - Settings > Emails > Add email address
-3. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `github.com/navikt`-appen.
+3. Gå til [MyApps](https://myapps.microsoft.com/)
+    - Hvis du ikke finner `github.com/navikt`-appen, be om tilgang til appen ved å velge `Legg til apper > Be om nye apper`.
+    - Klikk på `github.com/navikt`-appen.
 
 For å jobbe med Github og Git lokalt trenger du enten å bruke SSH-nøkler, eller den mer moderne løsningen `gh-cli`.
 Du som ønsker å bruke SHH-nøkler kan følge guiden på [docs.github.com](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
