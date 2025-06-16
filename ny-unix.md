@@ -73,23 +73,20 @@ De aller fleste team i Nav bruker NAIS-plattformen.
 Start med å gi deg selv tilgang til Google Cloud Platform (GCP).
 
 1. Gå til [MyApps](https://myapps.microsoft.com/) og klikk på `Google Cloud Platform`-appen.
-2. (Valgfritt) få en kollega til å legge deg til i teamet du tilhører i [NAIS Console](https://console.nav.cloud.nais.io/).
+2. (Valgfritt) Få en kollega til å legge deg til i teamet du tilhører i [NAIS Console](https://console.nav.cloud.nais.io/).
 
 NAIS tilbyr Kubernetes for å kjøre applikasjoner/containere.
 For å koble seg til Kubernetes hos NAIS trenger man en bunke med verktøy.
 
-1. Installer Kubectl: [kubernetes.io/docs](https://kubernetes.io/docs/tasks/tools/#kubectl)
-    - Brukes for å interagere med Kubernetes, trenger en `kubeconfig` for å fungere.
-2. Installer nais-cli: [docs.nais.io](https://docs.nais.io/operate/cli/how-to/install/)
+1. Installer nais-cli: [docs.nais.io](https://docs.nais.io/operate/cli/how-to/install/)
     - Hjelpeverktøy som henter blant annet ned `kubeconfig`, men også gjør det lettere å logge inn i Google Cloud Platform (GCP).
-3. Installer gcloud: [cloud.google.com](https://cloud.google.com/sdk/docs/install)
-    - Verktøy for å interagere med GCP, hovedsakelig for å logge inn (trengs av `nais-cli`).
-4. Installer kubectx: [github.com/ahmetb/kubectx](https://github.com/ahmetb/kubectx?tab=readme-ov-file#installation)
+2. Følg NAIS dokumentasjonen om hvordan få [kommando-linje tilgang](https://docs.nais.io/operate/how-to/command-line-access/).
+3. (Valgfritt) Installer kubectx: [github.com/ahmetb/kubectx](https://github.com/ahmetb/kubectx?tab=readme-ov-file#installation)
     - Man må ikke ha _kubectx_, men det vil gjøre hverdagen lettere når du skal interagere med Kubernetes.
     - `kubectx <din context>` for å bytte context/miljø/cluster.
     - `kubens <namespace>` for å bytte namespace (et namespace per team).
     
-Etter at du har installert alle disse fire programmene kan du endelig få tatt de i bruk!
+Når du har gjort dette kan du endelig få tatt det i bruk!
 
 1. Logg inn med enten `nais-cli` eller `gcloud`.
     - `nais login`
