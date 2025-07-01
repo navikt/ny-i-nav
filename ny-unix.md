@@ -47,6 +47,9 @@ Derfor har vi samlet dokumentasjonen for det i [En Nais device](en-nais-device.m
 
 Vi har et script du kan kjøre for å legge til Nav sine skrivere.
 Scriptet finner du i filen [add_nav_printers.sh](./add_nav_printers.sh).
+
+Kan hende du må gi kjørerettigheter til filen med `chmod +x add_nav_printers.sh`.
+Etter på kjører du filen med `./add_nav_printers.sh`.
     
 ## Bonuspoeng
 
