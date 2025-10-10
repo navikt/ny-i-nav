@@ -23,8 +23,7 @@ You will be prompted for your sudo/admin password.
 
 EOF
 
-read -p "# Do you wish to proceed? " -n 1 -r
-echo # (optional) move to a new line
+read -rp "# Do you wish to proceed (y/n)? "
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 
   case "${kernel_name}" in
