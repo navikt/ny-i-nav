@@ -43,13 +43,24 @@ Hvis du ikke fikk tilgang ut av boksen kan du følge stegene nedenfor:
 Det er de samme stegene som må gjøres uavhengig av operativsystem for å gjøre din maskin Nais.
 Derfor har vi samlet dokumentasjonen for det i [En Nais device](en-nais-device.md).
 
-## Legg til skriver
+## Skrive ut
+
+### Legg til skriver
 
 Vi har et script du kan kjøre for å legge til Nav sine skrivere.
 Scriptet finner du i filen [add_nav_printers.sh](./add_nav_printers.sh).
 
 Kan hende du må gi kjørerettigheter til filen med `chmod +x add_nav_printers.sh`.
-Etter på kjører du filen med `./add_nav_printers.sh`.
+Etterpå kjører du filen med `./add_nav_printers.sh`.
+
+### Skriv ut
+
+Bruk epost som brukernavn når du autentiserer deg for å sende dokumentet til
+printeren.
+
+Bruk Nav-ident som brukernavn når du autentiserer deg på selve printeren.
+
+Trykk *Frigjør utskrift* for å printe.
     
 ## Bonuspoeng
 
