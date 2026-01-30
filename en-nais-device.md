@@ -2,8 +2,7 @@
 
 For å kunne få tilgang til ting i Nav må du gjøre enheten nais, og for det har vi [Naisdevice](https://docs.nais.io/operate/naisdevice/).
 
-1. Start med å følge veiledningen for å sette opp Kolide: [Installer Kolide](https://docs.nais.io/operate/naisdevice/how-to/install-kolide/)
-2. Etter det må du installere verktøyet Naisdevice: [Install Naisdevice](https://docs.nais.io/operate/naisdevice/how-to/install/)
+1. Start med å følge veiledningen over hos Nais: [Installer Naisdevice](https://docs.nais.io/operate/naisdevice/how-to/install/)
 
 ## Tilgang til Github
 
