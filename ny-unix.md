@@ -55,7 +55,7 @@ Etterpå kjører du filen med `./add_nav_printers.sh`.
 
 ### Skriv ut
 
-Bruk epost som brukernavn når du autentiserer deg for å sende dokumentet til
+Bruk Nav-ident som brukernavn når du autentiserer deg for å sende dokumentet til
 printeren.
 
 Bruk Nav-ident som brukernavn når du autentiserer deg på selve printeren.
