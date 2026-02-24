@@ -45,6 +45,10 @@ Derfor har vi samlet dokumentasjonen for det i [En Nais device](en-nais-device.m
 
 ## Skrive ut
 
+### For Mac
+
+Det er en oppskrift på [Sharepoint](https://navno.sharepoint.com/sites/intranett-it/SitePages/Utskrift-printer-fra-Mac-med-Nais-oppsett.aspx), som tar deg igjennom reisen for å sette opp utskrift.
+
 ### Legg til skriver
 
 Vi har et script du kan kjøre for å legge til Nav sine skrivere.
