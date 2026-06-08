@@ -37,7 +37,7 @@ Start med å gi deg selv tilgang til Google Cloud Platform (GCP).
 NAIS tilbyr Kubernetes for å kjøre applikasjoner/containere.
 For å koble seg til Kubernetes hos NAIS trenger man en bunke med verktøy.
 
-1. Installer nais-cli: [docs.nais.io](https://docs.nais.io/operate/cli/how-to/install/)
+1. Installer nais-cli: [cli.nais.io](https://cli.nais.io/)
     - Hjelpeverktøy som henter blant annet ned `kubeconfig`, men også gjør det lettere å logge inn i Google Cloud Platform (GCP).
 2. Følg NAIS dokumentasjonen om hvordan få [kommando-linje tilgang](https://docs.nais.io/operate/how-to/command-line-access/).
 3. (Valgfritt) Installer kubectx: [github.com/ahmetb/kubectx](https://github.com/ahmetb/kubectx?tab=readme-ov-file#installation)
@@ -53,7 +53,8 @@ Når du har gjort dette kan du endelig få tatt det i bruk!
 2. Hent ned `kubeconfig` med `nais-cli`.
     - `nais kubeconfig`
 3. Sett context til `dev-gcp` (utviklingsmiljø i GCP).
+    - `kubectl config set-context dev-gcp`
     - `kubectx dev-gcp`
 4. Test at du får kontakt med Kubernetes med ny `kubeconfig`.
     - `kubectl get pods`
-    - Output bør være `No resources found in default namespace.`, hvis ikke har du sannsynligvis glemt å logge inn, eller du har feil `kubeconfig`.
+    - Output skal være `No resources found in default namespace.`, hvis ikke har du sannsynligvis glemt å logge inn, eller du har feil `kubeconfig`.
